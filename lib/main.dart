@@ -46,10 +46,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  //int _counter = 0;
-
   void _pay() {
-    InAppPayments.setSquareApplicationId('sandbox-sq0idb-VDPgi1T73hDkhD6aOzET7A');
+//Go to the Square Website and create your free account and after of this create a new app and get the free sandbox/square id
+    InAppPayments.setSquareApplicationId('YOUR-OWN-APPLICATION-ID');
     InAppPayments.startCardEntryFlow(
       onCardEntryCancel: _oncardentrycancel,
       onCardNonceRequestSuccess: _oncardrequest,
