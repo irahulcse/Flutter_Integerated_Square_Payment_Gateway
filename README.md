@@ -1,6 +1,6 @@
-# payment_2
+# Flutter_Integerated_Square_Payment_Gateway
+In this, I had integerated the Square Payment Gateway, through which anyone can use by their own application id.
 
-A new Flutter project.
 
 ## Getting Started
 
